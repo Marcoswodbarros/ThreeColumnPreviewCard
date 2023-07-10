@@ -2,11 +2,13 @@ import React from 'react';
 import './Card.css';
 
 const Card = () => {
-  return (
-    <div>
-        <h1>Teste</h1>
-    </div>
-  )
+    return (
+        <div>
+            <div className="card__container">
+                
+            </div>
+        </div>
+    )
 }
 
 export default Card
