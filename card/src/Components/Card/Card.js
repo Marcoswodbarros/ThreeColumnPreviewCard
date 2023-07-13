@@ -28,7 +28,7 @@ const Card = () => {
         <div>
             {textos.map((item) => {
                 return (
-                    <div className='card__container'>
+                    <div key={item.nome} className='card__container'>
                         <img src={item.image} className='card__img' alt="Logo Sedan" />
                         <h1>{item.nome}</h1>
                         <p>{item.texto}</p>
