@@ -25,11 +25,11 @@ const Card = () => {
     ]
 
     return (
-        <div>
+        <div className='card__container'>
             {textos.map((item) => {
                 return (
                     <div>
-                        <img src={item.image} alt="Logo Sedan" />
+                        <img src={item.image} className='card__img' alt="Logo Sedan" />
                         <h1>{item.nome}</h1>
                         <p>{item.texto}</p>
                     </div>
