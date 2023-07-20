@@ -10,28 +10,17 @@
     row-gap: 2.5rem;
 }
 
-.card__container:nth-child(1) {
-    border-top-left-radius: .8rem;
-    border-top-right-radius: .8rem;
-}
-
-.card__container:nth-last-child(1) {
-    border-bottom-left-radius: .8rem;
-    border-bottom-right-radius: .8rem;
-}
-
 .card__img {
     width: 4.5rem;
 }
 
 h1 {
     font-family: 'Big Shoulders Display', cursive;
-    ;
     font-size: 2.7rem;
     text-transform: uppercase;
 }
 
-.card__container {
+.card__text {
     line-height: 1.8rem;
 }
 
@@ -50,5 +39,9 @@ h1 {
     .card__container {
         flex-direction: column;
         max-width: 300px;
+    }
+
+    .card__text {
+        height: 172.781px;
     }
 }
