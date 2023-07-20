@@ -1,12 +1,16 @@
 import React from 'react';
 import './Button.css';
 
-const Button = () => {
+const Button = ({ textColor }) => {
+    const buttonStyle = {
+        color: textColor
+    };
+
     return (
-        <div>
-            <button>Learn more</button>
-        </div>
-    )
+        <button className="custom-button" style={buttonStyle}>
+            Learn more
+        </button>
+    );
 }
 
-export default Button
+export default Button;
