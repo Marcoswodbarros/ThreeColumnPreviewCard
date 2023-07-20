@@ -1,3 +1,69 @@
+# Frontend Mentor Challenge - Three Column Preview Card
+
+This is my eleventh challenge from Frontend Mentor.
+
+## Table of contents
+
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+- [Author](#author)
+
+
+## Overview
+
+### The challenge
+
+Users should be able to:
+
+- View the optimal layout for the site depending on their device's screen size;
+
+### Screenshot
+
+![Mobile](https://github.com/Marcoswodbarros/ThreeColumnPreviewCard/assets/108278189/a8d0358c-8077-4cf3-bb82-6757a15de49e)
+
+![Ipad](https://github.com/Marcoswodbarros/ThreeColumnPreviewCard/assets/108278189/70ab0ccd-44c4-42f9-aa77-aea1ad7399a2)
+
+![Desktop](https://github.com/Marcoswodbarros/ThreeColumnPreviewCard/assets/108278189/2d70a9ba-0b8a-4731-9b47-8d46935fbe66)
+
+### Links
+
+- Solution URL: [https://github.com/Marcoswodbarros/ThreeColumnPreviewCard.git]
+- Deploy: [https://three-column-preview-card-ashy.vercel.app/]
+
+
+## My process
+
+### Built with
+
+- Semantic HTML5 markup
+- CSS
+- Flexbox
+- JavaScript
+- React
+
+### What I learned
+
+While I was doing this project I was able to remember and improve my JavaScript and React skills. 
+
+### Continued development
+
+To my next project, I will keep exercising my React skills.
+
+
+## Author
+
+- GitHub - [Marcos Barros](https://github.com/Marcoswodbarros)
+- Linkedin - [Marcoswodbarros](www.linkedin.com/in/marcoswodbarros)
+- Frontend Mentor - [@Marcoswodbarros](https://www.frontendmentor.io/profile/Marcoswodbarros)
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
