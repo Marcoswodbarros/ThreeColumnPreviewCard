@@ -1,10 +1,23 @@
+.container {
+    margin: 5rem 2rem;
+}
+
 .card__container {
-    /* background-color: var(--bright-orange); */
     color: var(--very-light-gray);
     display: flex;
     flex-direction: column;
     padding: 4rem;
     row-gap: 1.5rem;
+}
+
+.card__container:nth-child(1) {
+    border-top-left-radius: .8rem;
+    border-top-right-radius: .8rem;
+}
+
+.card__container:nth-last-child(1) {
+    border-bottom-left-radius: .8rem;
+    border-bottom-right-radius: .8rem;
 }
 
 .card__img {

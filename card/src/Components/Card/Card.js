@@ -28,7 +28,7 @@ const Card = () => {
     ]
 
     return (
-        <div>
+        <div className='container'>
             {textos.map((item) => {
                 return (
                     <div key={item.nome} className='card__container' style={{background: item.bg}}>
