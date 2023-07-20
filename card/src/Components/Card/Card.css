@@ -25,11 +25,30 @@
 }
 
 h1 {
-    font-family: 'Big Shoulders Display', cursive;;
+    font-family: 'Big Shoulders Display', cursive;
+    ;
     font-size: 2.7rem;
     text-transform: uppercase;
 }
 
 .card__container {
     line-height: 1.8rem;
+}
+
+
+@media screen and (min-width: 768px) {
+
+    .container {
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        height: 100vh;
+        justify-content: center;
+        margin: 0;
+    }
+
+    .card__container {
+        flex-direction: column;
+        max-width: 300px;
+    }
 }

@@ -31,11 +31,13 @@ const Card = () => {
         <div className='container'>
             {textos.map((item) => {
                 return (
-                    <div key={item.nome} className='card__container' style={{ background: item.bg }}>
-                        <img src={item.image} className='card__img' alt="Logo Sedan" />
-                        <h1>{item.nome}</h1>
-                        <p className='card__text'>{item.texto}</p>
-                        <Button textColor={item.bg}/>
+                    <div key={item.nome} className="teste">
+                        <div className='card__container' style={{ background: item.bg }}>
+                            <img src={item.image} className='card__img' alt="Logo Sedan" />
+                            <h1>{item.nome}</h1>
+                            <p className='card__text'>{item.texto}</p>
+                            <Button textColor={item.bg} />
+                        </div>
                     </div>
                 )
             })}
