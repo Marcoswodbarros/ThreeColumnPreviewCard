@@ -34,7 +34,7 @@ const Card = () => {
                     <div key={item.nome} className='card__container' style={{background: item.bg}}>
                         <img src={item.image} className='card__img' alt="Logo Sedan" />
                         <h1>{item.nome}</h1>
-                        <p>{item.texto}</p>
+                        <p className='card__text'>{item.texto}</p>
                         <Button />
                     </div>
                 )
